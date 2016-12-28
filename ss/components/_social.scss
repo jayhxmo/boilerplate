@@ -1,0 +1,30 @@
+%icon {
+	display: inline-block;
+	width: em(22px);
+	height: em(22px);
+}
+
+
+.i-instagram {
+	@extend %icon;
+	background: url('../assets/social/instagram.svg') no-repeat center center;
+	background-size: contain;
+}
+
+.i-twitter {
+	@extend %icon;
+	background: url('../assets/social/twitter.svg') no-repeat center center;
+	background-size: contain;
+}
+
+.i-facebook {
+	@extend %icon;
+	background: url('../assets/social/facebook.svg') no-repeat center center;
+	background-size: contain;
+}
+
+.i-snapchat {
+	@extend %icon;
+	background: url('../assets/social/snapchat.svg') no-repeat center center;
+	background-size: contain;
+}

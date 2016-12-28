@@ -1,0 +1,95 @@
+/*
+Syntax error: Invalid CSS after "    eot": expected ")", was ":   "#{$file-pa..."
+        on line 22 of bower_components/bourbon/app/assets/stylesheets/helpers/_font-source-declaration.scss
+        from line 28 of bower_components/bourbon/app/assets/stylesheets/_bourbon.scss
+        from line 1 of ./ss/main.scss
+
+17:   $font-url) {
+18: 
+19:   $src: ();
+20: 
+21:   $formats-map: (
+22:     eot:   "#{$file-path}.eot?#iefix" format("embedded-opentype"),
+23:     woff2: "#{$file-path}.woff2" format("woff2"),
+24:     woff:  "#{$file-path}.woff" format("woff"),
+25:     ttf:   "#{$file-path}.ttf" format("truetype"),
+26:     svg:   "#{$file-path}.svg##{$font-family}" format("svg")
+27:   );
+
+Backtrace:
+bower_components/bourbon/app/assets/stylesheets/helpers/_font-source-declaration.scss:22
+bower_components/bourbon/app/assets/stylesheets/_bourbon.scss:28
+./ss/main.scss:1
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/lexer.rb:206:in `expected!'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:483:in `assert_tok'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:433:in `paren'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:418:in `special_fun'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:413:in `raw'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:337:in `funcall'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:319:in `ident'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_not'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_div'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_minus'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_plus'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `times_div_or_mod'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `plus_or_minus'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `relational'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `eq_or_neq'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `and_expr'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `or_expr'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:298:in `space'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:283:in `interpolation'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:246:in `expr'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:477:in `assert_expr'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/script/parser.rb:49:in `parse'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:1022:in `sass_script'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:514:in `variable'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:552:in `block_child'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:535:in `block'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:211:in `function_directive'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:174:in `special_directive'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:146:in `directive'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/engine.rb:274:in `to_tree'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/Users/jayhxmo/.rvm/gems/ruby-2.3.3/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"    eot\": expected \")\", was \":   \"#{$file-pa...\"\A         on line 22 of bower_components/bourbon/app/assets/stylesheets/helpers/_font-source-declaration.scss\A         from line 28 of bower_components/bourbon/app/assets/stylesheets/_bourbon.scss\A         from line 1 of ./ss/main.scss\A \A 17:   $font-url) {\A 18: \A 19:   $src: ();\A 20: \A 21:   $formats-map: (\A 22:     eot:   \"#{$file-path}.eot?#iefix\" format(\"embedded-opentype\"),\A 23:     woff2: \"#{$file-path}.woff2\" format(\"woff2\"),\A 24:     woff:  \"#{$file-path}.woff\" format(\"woff\"),\A 25:     ttf:   \"#{$file-path}.ttf\" format(\"truetype\"),\A 26:     svg:   \"#{$file-path}.svg##{$font-family}\" format(\"svg\")\A 27:   );"; }

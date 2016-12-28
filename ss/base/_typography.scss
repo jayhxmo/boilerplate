@@ -1,0 +1,55 @@
+html {
+	font: $font-weight--body normal 100% / 1.4 $font-family--primary;
+
+	@media screen and (max-width: $bp-xl) {
+		font-size: 90%;
+	}
+
+	@media screen and (max-width: $bp-lg) {
+		font-size: 80%;
+	}
+
+	@media screen and (max-width: $bp-md) {
+		font-size: 70%;
+	}
+
+	@media screen and (max-width: $bp-sm) {
+		font-size: 60%;
+	}
+}
+
+h1 {
+	font-size: rem(38px);
+}
+
+h2 {
+	font-size: rem(24px);
+}
+
+h3 {
+	font-size: rem(18px);
+}
+
+h4 {
+	font-size: rem(16px);
+}
+
+h5 {
+	font-size: rem(12px);
+}
+
+h6 {
+	font-size: rem(8px);
+}
+
+p {
+	font-family: $font-family--body;
+	font-size: rem(22px);
+	line-height: 1.618em;
+	margin: rem(28px) 0;
+}
+
+a {
+	color: $color-black;
+	text-decoration: none;
+}
